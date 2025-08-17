@@ -1,6 +1,6 @@
 {
   "name": "@kessler/repl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a personal lib for building repls",
   "main": "index.js",
   "scripts": {
