@@ -22,10 +22,10 @@
   "dependencies": {
     "@kessler/parse-arguments": "^2.0.0",
     "@kessler/tokenize": "^2.0.0",
-    "enquirer": "^2.3.6",
+    "enquirer": "^2.4.1",
     "prettyjson": "^1.2.1"
   },
   "devDependencies": {
-    "ava": "^3.10.1"
+    "ava": "^6.4.1"
   }
 }

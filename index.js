@@ -1,5 +1,4 @@
 const { Input } = require('enquirer')
-const { isString } = require('util')
 const tokenize = require('@kessler/tokenize')
 const parseArguments = require('@kessler/parse-arguments')
 const fs = require('fs').promises
@@ -89,7 +88,7 @@ class REPL {
 		name,
 		impl
 	}) {
-		if (isString(name)) {
+		if (typeof name === 'string') {
 			name = [name]
 		}
 
